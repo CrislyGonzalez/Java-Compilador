@@ -1,0 +1,139 @@
+/*class Hola{
+    int numero;
+    char letra;
+    boolean estado;
+
+    public boolean[] buscar(int n1, int n2){
+            boolean gato;
+            boolean perro;
+            boolean raton;
+            gato = true;
+            perro = false;
+            raton = true;
+
+            while (!gato){
+                n1 = 20;
+                gato = true;
+            }
+            return new boolean[6];
+        }
+
+    public char buscar2(boolean b){
+        return 'A';
+    }
+
+    public boolean buscar3(char c, boolean b, int a){
+        return true;
+    }
+
+    /*public boolean[] buscar4(int[] a, boolean[] b, char[] c, int[] d){
+        boolean gato;
+        int oso;
+        char perro;
+        oso = 110;
+        perro = 'P';
+        gato = false;
+        d[10] = 30;
+        c[5] = 'E';
+        b[6] = false;
+        return new boolean[6];
+    }*/
+
+    /*public int buscar4(int n1, int n2, int[] arreglo){
+        int numero;
+        numero = n1;
+        n2 = arreglo[6];
+        return n2;
+    }*/
+
+    /*public boolean[] buscar5(int n1, int n2){
+        boolean gato;
+        boolean perro;
+        boolean raton;
+        gato = true;
+        perro = false;
+        raton = true;
+
+        while (!gato){
+            n1 = 20;
+            gato = true;
+        }
+        return new boolean[6];
+    }*/
+
+    public int buscar10(int n1, int[] lista){
+
+            return n1;
+        }
+
+    public boolean buscar11(){
+                     boolean[] array;
+                     array = this.buscar(6, 10);
+                     return array[0];
+                 }
+
+    public boolean buscar12(){
+          char[] m;
+          m = Read();
+          return false;
+    }
+
+}
+
+class Mundo{
+    int numero2;
+
+    public int buscar4(int n1, int n2){
+        //int numero;
+        //numero = n1;
+        Hola papaPrueba;
+        int[] arreglo2;
+        papaPrueba = new Hola();
+
+        arreglo2 = new int[6];
+        arreglo2[5] = 10;
+        n2 = papaPrueba.buscar10(5, arreglo2);
+        return n2;
+    }
+}
+
+class Prueba{
+    public static void main(String[] args){
+        Print(new Mundo().buscar4(5, 6));
+    }
+}*/
+
+class PapaPrueba{
+    int[] brr;
+}
+
+class Prueba extends PapaPrueba{
+    int a;
+    int[] arr;
+    boolean b;
+
+    public int buscar(int n, int m){
+        brr = new int[6];
+        brr[0] = m;
+        n = brr[0];
+        return n;
+    }
+
+    public int potencia(int n, int e){
+        int resultado;
+        int contador;
+        resultado = n;
+        contador = 1;
+        while(contador < e){
+            resultado = resultado * n;
+            contador = contador + 1;
+        }
+        return resultado;
+    }
+}
+
+class Main{
+    public static void main(String[] args){
+        Print(new Prueba().potencia(2,5));
+    }
+}

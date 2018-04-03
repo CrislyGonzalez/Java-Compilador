@@ -1,0 +1,51 @@
+class hola{
+    int num;
+    char car;
+    boolean estado;
+    int num;
+    clase1 clase;
+    int[] arreglo;
+
+    public int buscar(char c, int n){
+        int num;
+        int var;
+        return "hola mundo";
+    }
+}
+
+class mundo extends hola{
+    boolean acer;
+
+    /*public int buscar(char c, int n, int[] lista){
+        int num;
+        int var;
+        boolean tree;
+        num[5] = 5;
+        tree = lista2[num];
+        num = var.length;
+        lista = new int[tree];
+
+        return var;
+    }*/
+
+    public int buscar(){
+        hola holita;
+        holita = new hola();
+        num = num + 1;
+        num = holita.buscar(car, num);
+        return num;
+    }
+
+
+
+    /*public int probandoArreglos(){
+        Print(arreglo + "x");
+        return new int[x];
+    }*/
+}
+
+class Main{
+    public static void main(String[] args){
+        Read();
+    }
+}
